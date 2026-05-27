@@ -1,33 +1,20 @@
-# ✈️ Flight Booking Price Prediction Project
+# ✈️ Flight Price Prediction
 
-## 📌 Objective
-To analyze flight booking data and build machine learning models to predict flight prices.
+## Objective
+Predict flight ticket prices.
 
-## 🛠️ Tools & Technologies
-- Python (Pandas, NumPy)
-- Matplotlib, Seaborn
-- Scikit-learn
-- Google Colab
+## Dataset
+Kaggle flight dataset  
 
-## 📊 Models Used
-- Linear Regression
-- Decision Tree
-- Random Forest
+## Model
+Random Forest  
+R²: 0.99  
 
-## 📈 Key Results
-- Linear Regression R² Score: ~0.90
-- Decision Tree R² Score: ~0.98
-- Random Forest R² Score: ~0.99 (Best Model)
+## Note
+Train/Test Split: 80/20  
+Possible overfitting  
 
-## 🧠 Key Insights
-- Tree-based models outperform linear models
-- Random Forest gives highest accuracy
-- Dataset contains non-linear relationships
-
-## 📂 Files Included
-- Flight Booking Project Notebook (.ipynb)
-- Dataset (if included)
-- Output graphs
-
-## 🚀 Conclusion
-Random Forest is the best-performing model for predicting flight prices due to its high accuracy and ability to handle complex data patterns.
+## How to Run
+git clone <repo-link>  
+pip install -r requirements.txt  
+jupyter notebook
